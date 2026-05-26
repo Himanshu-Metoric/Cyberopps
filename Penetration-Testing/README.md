@@ -8,7 +8,7 @@ Full engagement writeups, methodology notes, and walkthroughs.
 
 | File / Folder | Description |
 |---------------|-------------|
-| | |
+| RecruitX-Engagement | Full RecruitX case study (consolidated report + artifacts) |
 
 ---
 
