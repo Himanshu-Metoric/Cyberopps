@@ -1,0 +1,7 @@
+# curl -s "http://MACHINE_IP/api/user?id=1"
+{"id":1,"name":"Sarah Mitchell","email":"s.mitchell@recruitx.thm","role":"administrator","created":"2026-03-24"}
+
+# curl -s -b "PHPSESSID=<your_session>" "http://MACHINE_IP/profile.php?id=1"
+# (HTML snippet showing Sarah Mitchell profile)
+<div class="fw-semibold mt-1">Sarah Mitchell</div>
+<div class="fw-semibold mt-1 mono">s.mitchell@recruitx.thm</div>

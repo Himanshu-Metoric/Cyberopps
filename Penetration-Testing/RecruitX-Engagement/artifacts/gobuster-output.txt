@@ -1,0 +1,13 @@
+# gobuster dir -u http://MACHINE_IP -w directory-list-2.3-small.txt -x php
+
+/index.php            (Status: 200) [Size: 21600]
+/profile.php          (Status: 302)
+/login.php            (Status: 200)
+/jobs.php             (Status: 200)
+/uploads              (Status: 301)
+/admin                (Status: 301)
+/api                  (Status: 301)
+/register.php         (Status: 200)
+/reset.php            (Status: 200)
+/includes             (Status: 301)
+/config               (Status: 301)

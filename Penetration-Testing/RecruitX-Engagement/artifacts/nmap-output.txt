@@ -1,0 +1,14 @@
+# nmap -sV -sC -p- MACHINE_IP
+
+Starting Nmap 7.80 ( https://nmap.org )
+Host is up (0.00015s latency).
+Not shown: 65531 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 9.6p1 Ubuntu 3ubuntu13.5 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.58 ((Ubuntu))
+3306/tcp open  mysql   MySQL (unauthorized)
+8080/tcp open  http    Apache httpd 2.4.58 ((Ubuntu))
+
+# Notes
+# - Server header indicates Apache 2.4.58
+# - MySQL detected on 3306
